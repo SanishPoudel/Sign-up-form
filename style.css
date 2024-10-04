@@ -29,3 +29,13 @@ button{
   background-color: #596D48;
   border-radius: 8px;
 }
+
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
