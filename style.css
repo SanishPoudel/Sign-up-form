@@ -28,11 +28,13 @@ img{
 button{
   background-color: #596D48;
   border-radius: 8px;
+  height: 30px;
+  width: 150px;
 }
 
 .name {
   display: flex;
-  justify-content: space-between;
+  gap: 100px;
 }
 
 .field {
