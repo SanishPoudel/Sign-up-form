@@ -14,50 +14,50 @@
     
     <div class="content">
       
-      <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up now to get started.</p>
-      <p>You know you want to</p>
+      <p class="upper-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <span>now</span> to get started.</p>
+      <p class="upper-text">You <span>know</span> you want to</p>
 
       <form action="post">
-        <legend>Let's do this!</legend>
+        <p>Let's do this!</p>
 
-        <fieldset class="name">
+        <fieldset class="data">
           
           <div class="field">
           <label for="first_name">FIRST NAME</label>
-          <input type="text" id="first_name" name="first_name">
+          <input type="text" id="first_name" name="first_name" required>
           </div>
 
           <div class="field">
           <label for="last_name">LAST NAME</label>
-          <input type="text" id="last_name" name="last_name">
+          <input type="text" id="last_name" name="last_name" required>
           </div>
 
         </fieldset>
 
-        <fieldset class="name">
+        <fieldset class="data">
 
           <div class="field">
             <label for="user_email">EMAIL</label>
-            <input type="email" name="user_email" id="user_email">
+            <input type="email" name="user_email" id="user_email" required>
           </div>
 
           <div class="field">
             <label for="phone">PHONE NUBMER</label>
-            <input type="number" name="phone" id="phone">
+            <input type="number" name="phone" id="phone" required>
           </div>  
 
         </fieldset>
 
-        <fieldset class="name">
+        <fieldset class="data">
 
           <div class="field">
             <label for="password">PASSWORD</label>
-            <input type="password" id="password" name="password">
+            <input type="password" id="password" name="password" minlength="8" required placeholder="At least 8 characters">
           </div>
 
           <div class="field">
             <label for="conf_pass">PASSWORD</label>
-            <input type="password" name="conf_pass" id="conf_pass">
+            <input type="password" name="conf_pass" id="conf_pass" minlength="8" required placeholder="At least 8 characters">
           </div>
 
         </fieldset>
